@@ -13,3 +13,6 @@
 /tmp
 /config/database.yml
 .DS_Store
+/.bundle
+/vendor/bundle
+/vendor/assets/bundle
