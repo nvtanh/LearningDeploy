@@ -75,3 +75,4 @@ set :ssh_options, {
 #     auth_methods: %w(publickey password)
 #     # password: 'please use keys'
 #   }
+set :nginx_server_name, 'localhost'
