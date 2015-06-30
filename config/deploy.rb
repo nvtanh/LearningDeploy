@@ -4,7 +4,6 @@ lock '3.4.0'
 set :application, 'LearningDeploy'
 set :repo_url, 'git@github.com:nvtanh/LearningDeploy.git'
 set :deploy_user, 'nvtanh'
-set :port, 2200
 # Default branch is : ter
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
