@@ -3,12 +3,12 @@ lock '3.4.0'
 
 set :application, 'LearningDeploy'
 set :repo_url, 'git@github.com:nvtanh/LearningDeploy.git'
-set :deploy_user, 'nvtanh'
+set :deploy_user, 'vagrant'
 # Default branch is : ter
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
-set :deploy_to, '/home/nvtanh/#{fetch(:application)}'
+set :deploy_to, '/home/vagrant/LearningDeploy'
 
 # Default value for :scm is :git
 # set :scm, :git

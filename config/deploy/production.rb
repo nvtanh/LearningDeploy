@@ -7,7 +7,7 @@
 # server 'example.com', user: 'deploy', roles: %w{app web}, other_property: :other_value
 # server 'db.example.com', user: 'deploy', roles: %w{db}
 
-user = "nvtanh"
+user = "vagrant"
 ip_address = "127.0.0.1:2222"
 
 role :app, ["#{user}@#{ip_address}"]
